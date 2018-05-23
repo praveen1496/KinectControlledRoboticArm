@@ -1,0 +1,6 @@
+The code for Arduino is in Arduino Sketch folder. This code receives the data from processing IDE and calcualtes the angles for the servo motors in Robotic arm.
+The code for Processing IDE is in Processing Sketch folder. Please run Processing version 2.2.1. That supports Xbox 360 Kinect.
+
+Run both Arduino and Processing simulataneously and execute Processing IDE.
+The output window will display what Kinect can see. If there is user in the front, you can see the joint points and skeleton structure.
+As you move your arm, the angles will be calculated and sent to the arduino board in the robotic arm.
